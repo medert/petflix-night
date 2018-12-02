@@ -51,3 +51,10 @@ all_shows = [
 ]
 
 #YOUR CODE GOES HERE
+puts dramas.select {|drama| drama.include?('Llama')}
+
+puts animations.select {|animation| animation.include?('Dog')}
+
+puts comedies.reject {|comedy| comedy.include?('Dog')}
+
+puts all_shows.map {|show| show[0]}
